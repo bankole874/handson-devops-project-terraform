@@ -1,11 +1,11 @@
-
+ii
 # Terraform Project for RDS and WordPress Deployment
 This Terraform project provisions the necessary AWS resources to set up a MySQL RDS instance and a WordPress application. The resources include a VPC, subnets, security groups, an EC2 instance for WordPress, and an RDS instance.
 
 ## Project Structure
-- main.tf: Contains the main resource definitions for the AWS infrastructure.
+- ec2.tf: Contains the main resource definitions for the ec2.
 - provider.tf: Configures the AWS provider.
-- outputs.tf: Defines the output values for the created resources.
+- rds.tf: Contains the main resource definitions for the rds.
 
 ## Usage
 ### Step 1: Initialize Terraform
